@@ -2,52 +2,69 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <link href="resources/css/style.css" type="tet/css" rel="stylesheet">
+    <link href="resources/css/style.css" type="text/css" rel="stylesheet">
     <title>Broadway Design</title>
   </head>
   <body>
-<!-- Name and Navigation -->
-    <div id="home">
+<!-- Home -->
+    <div class="hero">
       <h1>Broadway Design</h1>
       <nav>
-        <a href="#home">Home</a>
-        <br>
-        <a href="#about">About</a>
-        <br>
-        <a href="#work">Work</a>
-        <br>
-        <a href="#team">Team</a>
-        <br>
-        <a href="#contact">Contact</a>
+        <p><a class="btn-nav" href="#">Home</a></p>
+        <p><a class="btn-nav" href="#about">About</a></p>
+        <p><a class="btn-nav" href="#work">Work</a></p>
+        <p><a class="btn-nav" href="#team">Team</a></p>
+        <p><a class="btn-nav" href="#contact">Contact</a></P>
       </nav>
     </div>
-    <div class="process">
-      <h2 id="about">Our Process</h2>
-      <img src="resources/images/identify.svg" alt="curly arrow">
-      <h3>Identify</h3>
+<!-- About -->
+    <div id="about">
+      <h2>Our Process</h2>
+      <div class="sidekick">
+        <img src="resources/images/identify.svg" alt="curly arrow">
+        <h3>Identify</h3>
         <p>We focus on the most important details.</p>
-      <img src="resources/images/understand.svg" alt="circle arrows">
-      <h3>Understand</h3>
+      </div>
+      <div class="sidekick">
+        <img src="resources/images/understand.svg" alt="circle arrows">
+        <h3>Understand</h3>
         <p>We study our projects inside and out.</p>
-      <img src="resources/images/execute.svg" alt="bold arrow">
-      <h3>Execute</h3>
+      </div>
+      <div class="sidekick">
+        <img src="resources/images/execute.svg" alt="bold arrow">
+        <h3>Execute</h3>
         <p>We put everything we have into our work.</p>
+      </div>
     </div>
-    <h2>Designed in New York<h2>
-    <h3 id="work">Portfolio</h3>
+<!-- Mini Hero -->
+    <div class="hero">
+      <h2>Designed in New York<h2>
+    </div>
+<!-- Work -->
+    <div id="work" class="sidekick">
+      <h3>Portfolio</h3>
       <p>Coming soon</p>
-    <h3 id="team">Team</h3>
+    </div>
+<!-- Team -->
+    <div id="team" class="sidekick">
+      <h3>Team</h3>
       <p>We're Hiring!</h3>
-    <h3 id="contact">Contact</h3>
-    <p>Phone: (555) 555-5555</p>
-    <p>E-mail: test@example.com</p>
-    <p>Twitter: @test</p>
-    <footer>&copy; Broadway 2016
-        <a href="#home">Home</a>
-        <a href="#about">About</a>
-        <a href="#work">Work</a>
-        <a href="#team">Team</a>
-        <a href="#contact">Contact</a>
+    </div>
+<!-- Contact -->
+    <div id="contact" class="sidekick">
+      <h3>Contact</h3>
+      <p>Phone: (555) 555-5555</p>
+      <p>E-mail: test@example.com</p>
+      <p>Twitter: @test</p>
+    </div>
+<!-- Footer -->
+    <footer>
+      <span class="copy">&copy; Broadway 2016</span>
+        <a class="btn-nav" href="#">Home</a>
+        <a class="btn-nav" href="#about">About</a>
+        <a class="btn-nav" href="#work">Work</a>
+        <a class="btn-nav" href="#team">Team</a>
+        <a class="btn-nav" href="#contact">Contact</a>
     </footer>
 
   </body>
